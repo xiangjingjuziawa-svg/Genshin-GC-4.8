@@ -1,0 +1,47 @@
+﻿========================================================
+ Grasscutter 4.8.0 CN (Juzi build) v1.0.0  完整整合包
+========================================================
+
+【包内文件】
+  server\grasscutter-4.8.0-cn.jar    服务端主程序（97 MB）
+  server\config.json                 配置
+  server\start.bat                   启动脚本
+  patches\CHANGES.md                 本版本全部改动说明
+  README.md                          详细说明
+  LICENSE-NOTICE.md                  许可与致谢（AGPL-3.0）
+  使用说明.txt                       本文件
+
+【安装步骤】
+  1. 装 JDK 17
+  2. 装 MongoDB（默认 127.0.0.1:27017）
+  3. 下载 resources-4.8.0.zip（437 MB）
+     解压后把 resources 文件夹放到 server\ 下（与 jar 同级）
+     目录应为：server\resources\
+  4. 双击 server\start.bat
+  5. 看到「加载完成！输入 "help" 查看命令列表」即成功
+
+【已验证功能】
+  · 登录、进世界、跑图、传送
+  · 拾取、开宝箱、掉落（不重复）
+  · 圣遗物真实词条
+  · 任务面板（任务/目标/奖励）+ 登录自动接取活动任务
+  · 中文语音支持
+
+【已知限制】
+  · 任务追踪 HUD 不可用（4.8 协议无追踪字段，客户端本地状态）
+  · 部分 plot 类任务不显示（缺剧情上报）
+  · 依赖场景脚本的复杂交互可能不稳定
+
+【许可】
+  基于 Grasscutter（AGPL-3.0）与 KeiLuna 2.0.3 定制分支整理
+  源码：https://github.com/Grasscutters/Grasscutter
+  全部修改见 patches\CHANGES.md
+  游戏资源版权归 miHoYo / HoYoverse，仅供学习研究，请勿商用
+
+【联系】
+  QQ 3663976282
+  xiangjingjuziawa@gmail.com
+
+【致谢】
+  Grasscutter 团队 · KeiLuna 定制分支 · BiliBili 用户 bili_374499
+========================================================
