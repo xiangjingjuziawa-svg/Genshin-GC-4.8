@@ -94,6 +94,17 @@ sc @<uid> <sceneId>        传送到场景
 - 服务端内核：[Grasscutter](https://github.com/Grasscutters/Grasscutter) — AGPL-3.0
 - 4.8 协议适配：KeiLuna 2.0.3 定制分支（社区）
 - 4.8 proto 定义参考：[Auscobe/Anime-Game-Proto-Archive](https://github.com/Auscobe/Anime-Game-Proto-Archive)
+- 4.8 移植思路与协议验证参考：BiliBili 用户 **bili_374499**
+
+## 联系方式
+
+| 渠道 | 地址 |
+|---|---|
+| QQ | 3663976282 |
+| 邮箱 | xiangjingjuziawa@gmail.com |
+| GitHub Issues | [提交问题](https://github.com/xiangjingjuziawa-svg/Genshin-GC-4.8/issues) |
+
+> 使用问题、Bug 反馈、源码索取，都可以通过以上方式联系。
 
 ## 免责声明
 
