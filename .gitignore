@@ -1,0 +1,13 @@
+# 游戏资源（体积大，不纳入仓库）
+server/resources/
+resources/
+# 运行产物
+logs/
+cache/
+*.log
+*.bak
+# 构建产物
+build/
+.gradle/
+# 本地配置
+server/config.json.local
