@@ -1,7 +1,9 @@
 # Grasscutter 4.8.0 CN — 可用整合版（Juzi build）
 
 > 基于 [Grasscutter](https://github.com/Grasscutters/Grasscutter)（AGPL-3.0）与 KeiLuna 2.0.3 定制分支整理。
-> **本仓库只提供可运行的服务端 jar + 配置 + 启动脚本，不包含游戏资源文件。**
+> **本仓库只包含配置、启动脚本与文档。**
+> **二进制 jar 不随仓库/Release 分发，请通过 Issue 或下方联系方式向作者索取（避免下载到错误版本）。**
+> 不包含任何游戏资源文件。
 
 ## 特性
 
@@ -23,15 +25,16 @@ resources 目录（必需，本仓库不提供，见下文）
 
 ```
 server/
-├── grasscutter-4.8.0-cn.jar
+├── grasscutter-4.8.0-cn.jar   ← 需向作者索取后放入（不随仓库分发）
 ├── config.json
 ├── start.bat
-└── resources/          ← 需要你自己放入
+└── resources/                 ← 需要你自己准备
 ```
 
-### 3. 启动
+### 3. 获取 jar 并启动
 
-双击 `server/start.bat`
+jar 请通过 [Issues](https://github.com/xiangjingjuziawa-svg/Genshin-GC-4.8/issues) 或文末联系方式向作者索取，
+放入 `server/` 目录后双击 `server/start.bat`
 
 看到 `加载完成！输入 "help" 查看命令列表` 即成功。
 
