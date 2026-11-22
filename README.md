@@ -1,9 +1,9 @@
 # Grasscutter 4.8.0 CN — 可用整合版（Juzi build）
 
 > 基于 [Grasscutter](https://github.com/Grasscutters/Grasscutter)（AGPL-3.0）与 KeiLuna 2.0.3 定制分支整理。
-> **本仓库只包含配置、启动脚本与文档。**
-> **二进制 jar 不随仓库/Release 分发，请通过 Issue 或下方联系方式向作者索取（避免下载到错误版本）。**
-> 不包含任何游戏资源文件。
+> **下载**：[Release v1.0.0](https://github.com/xiangjingjuziawa-svg/Genshin-GC-4.8/releases/tag/v1.0.0)
+> - `GC48-server-v1.0.0.zip`（88.9 MB）服务端：jar + config + 启动脚本 + 改动说明
+> - `resources-4.8.0.zip`（437.1 MB）游戏资源，解压后 1.28 GB（已含全部数据修正）
 
 ## 特性
 
@@ -25,16 +25,18 @@ resources 目录（必需，本仓库不提供，见下文）
 
 ```
 server/
-├── grasscutter-4.8.0-cn.jar   ← 需向作者索取后放入（不随仓库分发）
+├── grasscutter-4.8.0-cn.jar   ← 从 Release 解压得到
 ├── config.json
 ├── start.bat
-└── resources/                 ← 需要你自己准备
+└── resources/                 ← 从 resources-4.8.0.zip 解压得到
 ```
 
-### 3. 获取 jar 并启动
+### 3. 下载并启动
 
-jar 请通过 [Issues](https://github.com/xiangjingjuziawa-svg/Genshin-GC-4.8/issues) 或文末联系方式向作者索取，
-放入 `server/` 目录后双击 `server/start.bat`
+1. 从 [Release v1.0.0](https://github.com/xiangjingjuziawa-svg/Genshin-GC-4.8/releases/tag/v1.0.0) 下载两个包
+2. 解压 `GC48-server-v1.0.0.zip`
+3. 解压 `resources-4.8.0.zip`，把 `resources` 文件夹放到 `server/` 下（与 jar 同级）
+4. 双击 `server/start.bat`
 
 看到 `加载完成！输入 "help" 查看命令列表` 即成功。
 
